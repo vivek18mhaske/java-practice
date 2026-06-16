@@ -55,6 +55,7 @@
 //         }
 //     }
 
+
 // }
 
 // QQ -- 22//
@@ -68,6 +69,18 @@
 
 //     }
 // }
+// class practice {
+//   public static void main(String... args){
+//     for(int i=0;i<=100;i++)
+//       System.out.println(i++);
+//   }
+// }
+// class practice {
+//   public static void main(String... args){
+//     for(int i=0;i<=100;i+=2)
+//        System.out.println(i);
+//   }
+// }
 
 // QQ -- 33//
 
@@ -78,6 +91,19 @@
 //                System.out.println(i);
         
 //     }
+// }
+
+// class practice {
+//   public static void main(String... args){
+//     for(int i=1;i<=100;i++)
+//       System.out.println(i++);
+//   }
+// }
+// class practice {
+//   public static void main(String... args){
+//     for(int i=1;i<=100;i+=2)
+//        System.out.println(i);
+//   }
 // }
 
 // QQ -- 44//
@@ -123,9 +149,51 @@
 
 // QQ -- 55//
 
-class practice{
+class practice
+{
     public static void main(String... args){
-        for(int i=1;i<=10;i++)
-            System.out.println("4*"+i+"="+4*i);
+        int n=10;
+        int sum=0;
+        for(int i=1;i<=n;i++)
+            sum+=i;
+            System.out.println(sum);
     }
 }
+//QQ -- 66//
+// class practice
+// {
+//     public static void main(String... args){
+//     int n=5;
+//     int fact=1;
+//     for(int i=1;i<=n;i++)
+//       fact *=i;
+//     System.out.println(fact);}
+// }
+
+// class practice {
+//   public static void main(String... args){
+//     int n=5;
+//     int fact=1;
+//     for (int i=1;i<=n;i++)
+//       fact*=i;
+//       System.out.println(fact);
+//     }
+// }
+
+//QQ -- 77 //
+// class practice{
+//   public static void main(String... args)
+// {
+//   int []i={1,2,3,4};
+//   System.out.println(i[3]);
+
+    
+// }
+// }
+// class practice{
+//   public static void main(String... args)
+// {
+//   int i=1234;
+//   System.out.println(i);   
+// }
+// }
