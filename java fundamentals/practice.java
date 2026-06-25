@@ -93,6 +93,8 @@
 //     }
 // }
 
+// june-12//
+
 // class practice {
 //   public static void main(String... args){
 //     for(int i=1;i<=100;i++)
@@ -149,16 +151,16 @@
 
 // QQ -- 55//
 
-class practice
-{
-    public static void main(String... args){
-        int n=10;
-        int sum=0;
-        for(int i=1;i<=n;i++)
-            sum+=i;
-            System.out.println(sum);
-    }
-}
+// class practice
+// {
+//     public static void main(String... args){
+//         int n=10;
+//         int sum=0;
+//         for(int i=1;i<=n;i++)
+//             sum+=i;
+//             System.out.println(sum);
+//     }
+// }
 //QQ -- 66//
 // class practice
 // {
@@ -186,14 +188,79 @@ class practice
 // {
 //   int []i={1,2,3,4};
 //   System.out.println(i[3]);
-
+// }}
     
-// }
-// }
 // class practice{
 //   public static void main(String... args)
 // {
-//   int i=1234;
-//   System.out.println(i);   
+//   int i=45678;
+//   System.out.println(i/10);   
 // }
 // }
+
+// class practice {
+//     public static void main(String... agrs){
+//         int num=7823;
+//         int reverse=0;
+//         while(num>0){
+//             int digit=num%10;
+//             reverse=reverse*10 +digit;
+//             num=num/10;
+//     }
+//         System.out.println(reverse);
+// }
+// }
+
+// class practice
+// {
+//     public static void main(String... args){
+//         int n=18;
+//         System.out.println(n/10);
+//     }
+// }
+// QQ--88 //
+// class practice{  
+//     public static void main(String... args){
+//         int num=12345;
+//         int count=0;
+//         while(num>0){
+//             count++;
+//         num=num/10;}
+//         System.out.println(count);
+
+//     }
+// }
+// QQ--99 //
+// class practice {
+//     public static void main(String... args){
+//         int digit=1234;
+//         int sum=0;
+//         while(digit>0){
+//             int num=digit%10;
+//             sum +=num;
+//             num=num/10;  
+//         }
+//         System.out.println(sum);
+//     }
+// }
+// QQ--10 //
+// class practice {
+//     public static void main(String... args){
+//       int num=121;
+//       int original=num;
+//       int reverse=0;
+//       while(num>0){
+//         int digit=num%10;
+//         reverse=reverse*10+digit;
+//         num=num/10;
+//       }
+//       if (original==reverse)
+
+//       System.out.println("The no. is pallindrome");
+//       else
+//       System.out.println("The no. is not palindrome");
+//     }
+// }
+
+
+
