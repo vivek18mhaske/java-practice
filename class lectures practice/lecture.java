@@ -102,3 +102,11 @@
 // System.out.println(c.hashCode());
 // }
 // }
+class lecture{
+    static lecture x = new lecture ();
+    {
+        System.out.println("Hi  can print ");
+        System.exit(0);
+        // return 10;
+    }
+}
