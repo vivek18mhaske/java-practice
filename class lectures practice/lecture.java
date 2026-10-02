@@ -102,11 +102,21 @@
 // System.out.println(c.hashCode());
 // }
 // }
-class lecture{
-    static lecture x = new lecture ();
-    {
-        System.out.println("Hi  can print ");
-        System.exit(0);
-        // return 10;
-    }
-}
+//Applicable only till 1.5 version from 1.7 version cant run without main method //
+// class lecture{
+//     static int x = m1();
+//     public static int m1()
+//     {
+//         System.out.println("Hi  can print ");
+//         System.exit(0);
+//         return 10;
+//     }
+// }
+// class lecture{
+//     static lecture x = new lecture ();
+//     {
+//         System.out.println("Hi  can print ");
+//         System.exit(0);
+//         // return 10;
+//     }
+// }

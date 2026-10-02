@@ -276,4 +276,177 @@
 //     }
 // }
 
+// class collection_framework{
+//     public static void main(String... args){
+//         int num=370;
+//         int original=num;
+//         int sum=0;
+//         while(num>0){
+//             int digit=num%10;
+//             sum+=digit*digit*digit;
+//             num=num/10;
+//         }
+//         if(sum==original)
+//             System.out.println("its an armstrong no.");
+//         else
+//             System.out.println("its not an armstrong no.");
+//     }
+// }
+// public class LCM{
+//     public static void main(String... args){
+//         int x=12;
+//         int y=18;
+//         int gcd=1;
+//         int lcm=1;
+//         for(int i=1;i<=12 && i<=18;i++){
+//             if(x%i==0 && y%i==0)
+//                 gcd=i;
+//         }
+//         lcm=(x*y)/gcd;
+//         System.out.println("LCM = "+lcm);
+//     }
+// }
+// import java.util.Scanner;
+// public class practice {
+//     public static void main(String... agrs){
+//         Scanner sc =new Scanner(System.in);
+//         int x=sc.nextInt();
+//         int y=sc.nextInt();
+//         int sum=x+y;
+//         System.out.println("sum = "+sum);
+//         sc.close();
+//     }
+// }
+// import java.util.Scanner;
 
+// public class practice {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter first number: ");
+//         int x = sc.nextInt();
+//         System.out.print("Enter second number: ");
+//         int y = sc.nextInt();
+
+//         int sum = x + y;
+
+//         System.out.println("Sum = " + sum);
+
+//         sc.close();
+//     }
+// }
+// import java.util.*;
+
+// public class practice
+// {
+//     public static void main(String... args)
+//     {
+//     Scanner sc=new Scanner(System.in);
+//     int n=sc.nextInt();
+   
+//         if (n%2!=0){
+//             System.out.println("Weird");}
+//          else if (2<=n && n<=5 ){
+//             System.out.println("Not Weird");}
+//          else if (6<=n && n<=20 ){
+//             System.out.println("Weird");}
+//          else if (n>20 ){
+//             System.out.println("Not Weird");
+//          }
+     
+//     }
+// }
+// QUESTION-2//
+
+// import java.util.*;
+
+// public class Solution {
+
+//     public static void main(String[] args) {
+//         Scanner scan = new Scanner(System.in);
+//         int i = scan.nextInt();
+//         double d= scan.nextDouble();
+//         // String a=scan.nextLine();
+//         String s=scan.nextLine();
+
+//         // Write your code here.
+
+//         System.out.println("String: " + s);
+//         System.out.println("Double: " + d);
+//         System.out.println("Int: " + i);
+//     }
+// }
+
+// public class practice {
+//     public static void main(String[] args) {
+//         // Accessing the predefined maximum integer
+//         int maxInt = Integer.MAX_VALUE;
+//         int[] primes = {2, 3, 5, 7, 11};
+//         for(int i =0;i<primes.length;i++){
+//             System.out.println(primes[i]);
+//             if(maxInt>primes[i]){
+//                 maxInt=primes[i];
+//             }   
+//         }
+//         System.out.println(maxInt);
+        
+//         System.out.println("The maximum integer value in Java is: " + maxInt);
+//     }
+// }
+
+//1//
+
+// import java.util.Scanner;
+
+// class practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         // System.out.prinln(n*i);
+//         for(int i=1;i>=10;i++)
+//          System.out.print(n*i+"");
+        
+//     }
+// }
+
+// 2// 
+
+// import java.util.Scanner;
+
+// class practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int number = sc.nextInt();
+        
+//         // Write the if, else if, else statements below
+//         if (number>100)
+//            System.out.println("Big");
+//         else if (number<10)
+//            System.out.println("small");
+//         else
+//            System.out.println("Number");
+//     }
+// }
+
+//3//
+// import java.util.Scanner;
+
+// class Solution {
+//     public static void utility(int number) {
+//         // Write the if, else if, else statements below
+//         if (number>100)
+//            System.out.println("Big");
+//         else if (number<10)
+            
+//            System.out.println("small");
+//         else
+//            System.out.println("Number");
+//     }
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//             int number = sc.nextInt();
+//             utility(number);
+//     }
+    
+// }
