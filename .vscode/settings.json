@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "java fundamentals",
         "class lectures practice",
+        "GeekforGeeks",
         "Core Java Practice",
-        "GeekforGeeks"
+        "Pattern_programing"
     ]
 }
